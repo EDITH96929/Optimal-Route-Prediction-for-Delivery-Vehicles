@@ -1,0 +1,489 @@
+{
+  "locations": {
+    "Master Canteen Square": {
+      "id": 0,
+      "x": 85.836,
+      "y": 20.268
+    },
+    "Railway Station": {
+      "id": 1,
+      "x": 85.838,
+      "y": 20.269
+    },
+    "Kharavela Nagar": {
+      "id": 2,
+      "x": 85.837,
+      "y": 20.272
+    },
+    "Ram Mandir Square": {
+      "id": 3,
+      "x": 85.843,
+      "y": 20.275
+    },
+    "Kalpana Square": {
+      "id": 4,
+      "x": 85.841,
+      "y": 20.252
+    },
+    "Lingaraj Temple": {
+      "id": 5,
+      "x": 85.834,
+      "y": 20.244
+    },
+    "Airport (BPI)": {
+      "id": 6,
+      "x": 85.818,
+      "y": 20.255
+    },
+    "CRP Square": {
+      "id": 7,
+      "x": 85.812,
+      "y": 20.295
+    },
+    "Nayapalli": {
+      "id": 8,
+      "x": 85.816,
+      "y": 20.288
+    },
+    "Jayadev Vihar": {
+      "id": 9,
+      "x": 85.824,
+      "y": 20.296
+    },
+    "Patia Big Bazaar": {
+      "id": 10,
+      "x": 85.824,
+      "y": 20.345
+    },
+    "KIIT Square": {
+      "id": 11,
+      "x": 85.825,
+      "y": 20.348
+    },
+    "Infocity": {
+      "id": 12,
+      "x": 85.828,
+      "y": 20.351
+    },
+    "Chandrasekharpur": {
+      "id": 13,
+      "x": 85.83,
+      "y": 20.34
+    },
+    "Vani Vihar": {
+      "id": 14,
+      "x": 85.834,
+      "y": 20.283
+    },
+    "Acharya Vihar": {
+      "id": 15,
+      "x": 85.832,
+      "y": 20.288
+    },
+    "Rasulgarh": {
+      "id": 16,
+      "x": 85.851,
+      "y": 20.274
+    },
+    "Palasuni": {
+      "id": 17,
+      "x": 85.858,
+      "y": 20.281
+    },
+    "Mancheswar": {
+      "id": 18,
+      "x": 85.867,
+      "y": 20.292
+    },
+    "Baramunda": {
+      "id": 19,
+      "x": 85.806,
+      "y": 20.277
+    }
+  },
+  "edges": [
+    {
+      "from": "Master Canteen Square",
+      "to": "Railway Station",
+      "distance": 0.25,
+      "time": 0.36,
+      "fuel_cost": 0.03
+    },
+    {
+      "from": "Master Canteen Square",
+      "to": "Kharavela Nagar",
+      "distance": 0.46,
+      "time": 0.58,
+      "fuel_cost": 0.05
+    },
+    {
+      "from": "Master Canteen Square",
+      "to": "Ram Mandir Square",
+      "distance": 1.1,
+      "time": 1.51,
+      "fuel_cost": 0.13
+    },
+    {
+      "from": "Railway Station",
+      "to": "Kharavela Nagar",
+      "distance": 0.35,
+      "time": 0.45,
+      "fuel_cost": 0.05
+    },
+    {
+      "from": "Railway Station",
+      "to": "Ram Mandir Square",
+      "distance": 0.87,
+      "time": 1.68,
+      "fuel_cost": 0.09
+    },
+    {
+      "from": "Railway Station",
+      "to": "Rasulgarh",
+      "distance": 1.55,
+      "time": 2.27,
+      "fuel_cost": 0.14
+    },
+    {
+      "from": "Kharavela Nagar",
+      "to": "Ram Mandir Square",
+      "distance": 0.74,
+      "time": 1.04,
+      "fuel_cost": 0.08
+    },
+    {
+      "from": "Kharavela Nagar",
+      "to": "Vani Vihar",
+      "distance": 1.27,
+      "time": 1.71,
+      "fuel_cost": 0.14
+    },
+    {
+      "from": "Kharavela Nagar",
+      "to": "Rasulgarh",
+      "distance": 1.57,
+      "time": 3.6,
+      "fuel_cost": 0.2
+    },
+    {
+      "from": "Ram Mandir Square",
+      "to": "Rasulgarh",
+      "distance": 0.89,
+      "time": 1.03,
+      "fuel_cost": 0.1
+    },
+    {
+      "from": "Ram Mandir Square",
+      "to": "Vani Vihar",
+      "distance": 1.34,
+      "time": 1.54,
+      "fuel_cost": 0.18
+    },
+    {
+      "from": "Kalpana Square",
+      "to": "Lingaraj Temple",
+      "distance": 1.18,
+      "time": 1.68,
+      "fuel_cost": 0.11
+    },
+    {
+      "from": "Kalpana Square",
+      "to": "Master Canteen Square",
+      "distance": 1.86,
+      "time": 2.64,
+      "fuel_cost": 0.24
+    },
+    {
+      "from": "Kalpana Square",
+      "to": "Railway Station",
+      "distance": 1.92,
+      "time": 2.19,
+      "fuel_cost": 0.24
+    },
+    {
+      "from": "Kalpana Square",
+      "to": "Kharavela Nagar",
+      "distance": 2.26,
+      "time": 2.85,
+      "fuel_cost": 0.2
+    },
+    {
+      "from": "Lingaraj Temple",
+      "to": "Airport (BPI)",
+      "distance": 2.16,
+      "time": 3.98,
+      "fuel_cost": 0.23
+    },
+    {
+      "from": "Lingaraj Temple",
+      "to": "Master Canteen Square",
+      "distance": 2.67,
+      "time": 4.27,
+      "fuel_cost": 0.35
+    },
+    {
+      "from": "Lingaraj Temple",
+      "to": "Railway Station",
+      "distance": 2.81,
+      "time": 5.18,
+      "fuel_cost": 0.38
+    },
+    {
+      "from": "Airport (BPI)",
+      "to": "Master Canteen Square",
+      "distance": 2.46,
+      "time": 3.58,
+      "fuel_cost": 0.35
+    },
+    {
+      "from": "Airport (BPI)",
+      "to": "Kalpana Square",
+      "distance": 2.57,
+      "time": 5.49,
+      "fuel_cost": 0.28
+    },
+    {
+      "from": "CRP Square",
+      "to": "Nayapalli",
+      "distance": 0.89,
+      "time": 1.94,
+      "fuel_cost": 0.13
+    },
+    {
+      "from": "CRP Square",
+      "to": "Jayadev Vihar",
+      "distance": 1.34,
+      "time": 1.74,
+      "fuel_cost": 0.14
+    },
+    {
+      "from": "CRP Square",
+      "to": "Baramunda",
+      "distance": 2.11,
+      "time": 2.36,
+      "fuel_cost": 0.21
+    },
+    {
+      "from": "CRP Square",
+      "to": "Acharya Vihar",
+      "distance": 2.35,
+      "time": 2.69,
+      "fuel_cost": 0.24
+    },
+    {
+      "from": "CRP Square",
+      "to": "Vani Vihar",
+      "distance": 2.78,
+      "time": 6.62,
+      "fuel_cost": 0.4
+    },
+    {
+      "from": "Nayapalli",
+      "to": "Jayadev Vihar",
+      "distance": 1.26,
+      "time": 2.91,
+      "fuel_cost": 0.11
+    },
+    {
+      "from": "Nayapalli",
+      "to": "Baramunda",
+      "distance": 1.65,
+      "time": 2.47,
+      "fuel_cost": 0.24
+    },
+    {
+      "from": "Jayadev Vihar",
+      "to": "Acharya Vihar",
+      "distance": 1.26,
+      "time": 2.79,
+      "fuel_cost": 0.17
+    },
+    {
+      "from": "Jayadev Vihar",
+      "to": "Vani Vihar",
+      "distance": 1.82,
+      "time": 2.9,
+      "fuel_cost": 0.25
+    },
+    {
+      "from": "Jayadev Vihar",
+      "to": "Baramunda",
+      "distance": 2.91,
+      "time": 4.13,
+      "fuel_cost": 0.34
+    },
+    {
+      "from": "Patia Big Bazaar",
+      "to": "KIIT Square",
+      "distance": 0.35,
+      "time": 0.72,
+      "fuel_cost": 0.05
+    },
+    {
+      "from": "Patia Big Bazaar",
+      "to": "Infocity",
+      "distance": 0.8,
+      "time": 1.42,
+      "fuel_cost": 0.09
+    },
+    {
+      "from": "Patia Big Bazaar",
+      "to": "Chandrasekharpur",
+      "distance": 0.87,
+      "time": 1.07,
+      "fuel_cost": 0.1
+    },
+    {
+      "from": "Patia Big Bazaar",
+      "to": "Jayadev Vihar",
+      "distance": 5.44,
+      "time": 8.81,
+      "fuel_cost": 0.63
+    },
+    {
+      "from": "Patia Big Bazaar",
+      "to": "CRP Square",
+      "distance": 5.71,
+      "time": 6.98,
+      "fuel_cost": 0.55
+    },
+    {
+      "from": "KIIT Square",
+      "to": "Infocity",
+      "distance": 0.47,
+      "time": 0.67,
+      "fuel_cost": 0.05
+    },
+    {
+      "from": "KIIT Square",
+      "to": "Chandrasekharpur",
+      "distance": 1.05,
+      "time": 1.82,
+      "fuel_cost": 0.09
+    },
+    {
+      "from": "KIIT Square",
+      "to": "Jayadev Vihar",
+      "distance": 5.77,
+      "time": 8.53,
+      "fuel_cost": 0.6
+    },
+    {
+      "from": "KIIT Square",
+      "to": "CRP Square",
+      "distance": 6.06,
+      "time": 8.23,
+      "fuel_cost": 0.62
+    },
+    {
+      "from": "Infocity",
+      "to": "Chandrasekharpur",
+      "distance": 1.24,
+      "time": 1.61,
+      "fuel_cost": 0.14
+    },
+    {
+      "from": "Chandrasekharpur",
+      "to": "Jayadev Vihar",
+      "distance": 4.93,
+      "time": 9.31,
+      "fuel_cost": 0.61
+    },
+    {
+      "from": "Chandrasekharpur",
+      "to": "CRP Square",
+      "distance": 5.38,
+      "time": 8.76,
+      "fuel_cost": 0.58
+    },
+    {
+      "from": "Vani Vihar",
+      "to": "Acharya Vihar",
+      "distance": 0.6,
+      "time": 1.08,
+      "fuel_cost": 0.06
+    },
+    {
+      "from": "Acharya Vihar",
+      "to": "Nayapalli",
+      "distance": 1.78,
+      "time": 2.65,
+      "fuel_cost": 0.22
+    },
+    {
+      "from": "Acharya Vihar",
+      "to": "Kharavela Nagar",
+      "distance": 1.86,
+      "time": 2.69,
+      "fuel_cost": 0.24
+    },
+    {
+      "from": "Acharya Vihar",
+      "to": "Ram Mandir Square",
+      "distance": 1.89,
+      "time": 2.81,
+      "fuel_cost": 0.27
+    },
+    {
+      "from": "Rasulgarh",
+      "to": "Palasuni",
+      "distance": 1.1,
+      "time": 1.46,
+      "fuel_cost": 0.13
+    },
+    {
+      "from": "Palasuni",
+      "to": "Mancheswar",
+      "distance": 1.58,
+      "time": 2.13,
+      "fuel_cost": 0.22
+    },
+    {
+      "from": "Palasuni",
+      "to": "Ram Mandir Square",
+      "distance": 1.79,
+      "time": 3.46,
+      "fuel_cost": 0.22
+    },
+    {
+      "from": "Mancheswar",
+      "to": "Rasulgarh",
+      "distance": 2.67,
+      "time": 3.22,
+      "fuel_cost": 0.28
+    },
+    {
+      "from": "Mancheswar",
+      "to": "Ram Mandir Square",
+      "distance": 3.26,
+      "time": 5.18,
+      "fuel_cost": 0.32
+    },
+    {
+      "from": "Mancheswar",
+      "to": "Vani Vihar",
+      "distance": 3.8,
+      "time": 7.08,
+      "fuel_cost": 0.44
+    },
+    {
+      "from": "Mancheswar",
+      "to": "Acharya Vihar",
+      "distance": 3.91,
+      "time": 4.32,
+      "fuel_cost": 0.4
+    },
+    {
+      "from": "Baramunda",
+      "to": "Airport (BPI)",
+      "distance": 2.78,
+      "time": 3.27,
+      "fuel_cost": 0.26
+    }
+  ],
+  "metadata": {
+    "num_locations": 20,
+    "num_roads": 54,
+    "city": "Bhubaneswar"
+  }
+}
